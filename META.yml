@@ -15,10 +15,10 @@ name: Archlinux-Messages
 provides:
   Archlinux::Messages:
     file: lib/Archlinux/Messages.pm
-    version: 0.01
+    version: 0.02
 requires:
   Term::ANSIColor: 0
   Text::Wrap: 0
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.01
+  repository: http://github.com/juster/perl-archlinux-messages
+version: 0.02

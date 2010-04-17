@@ -9,7 +9,7 @@ use Exporter;
 
 our @ISA     = qw(Exporter);
 our @EXPORT  = qw(msg status substatus warning error);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our ($Columns, $Mono) = (78, undef);
 
@@ -116,7 +116,7 @@ Outputs:
 =for html
  <div style="width: 500px; background:black; font-family:monospace;
              color:white; white-space:pre; border: solid white 1px;
-             margin: 15px; "
+             margin: 15px; padding: 10px;"
  > EXAMPLE:
  <span style="color:green">==></span> This is a status message
  <span style="color:blue">  -></span> This is a substatus message
@@ -221,6 +221,20 @@ terminal colors are disabled.
               'so I have to keep typing.' );
  
   }
+
+=head1 SEE ALSO
+
+=over
+
+=item * Archlinux
+
+L<http://www.archlinux.org>
+
+=item * Git Repository
+
+L<http://github.com/juster/perl-archlinux-messages>
+
+=back
 
 =head1 AUTHOR
 
